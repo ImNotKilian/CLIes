@@ -1,0 +1,22 @@
+{
+  "name": "clies",
+  "version": "1.0.7",
+  "description": "",
+  "main": "src/index.js",
+  "author": "sammwy",
+  "license": "ISC",
+  "dependencies": {
+    "unzipper": "^0.10.11"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "bin": {
+    "@clies/cli": "src/index.js",
+    "cli": "src/index.js"
+  }
+}
